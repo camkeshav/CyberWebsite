@@ -1,0 +1,33 @@
+.navbar {
+    background-color: black;
+    border-radius: 23px;
+    height: 63px;
+    margin: 35px 2px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 18px 19px;
+}
+
+.navbar li a {
+    padding: 8px 11px;
+    text-decoration: none;
+    color: blanchedalmond;
+    font-weight: bolder;
+}
+
+.navbar li a:hover {
+    cursor: -moz-grabbing;
+}
+
+a:hover {
+    background-color: tomato;
+    border-radius: 15px;
+}
+
