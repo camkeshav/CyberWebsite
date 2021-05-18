@@ -1,8 +1,9 @@
-.navbar {
+/* .navbar {
     background-color: black;
     border-radius: 23px;
     height: 63px;
     margin: 35px 2px;
+    width: 100%;
 }
 
 .navbar ul {
@@ -20,9 +21,13 @@
     text-decoration: none;
     color: blanchedalmond;
     font-weight: bolder;
-}
+} */
 
-.navbar li a:hover {
+
+
+
+
+/* .navbar li a:hover {
     cursor: -moz-grabbing;
 }
 
@@ -31,3 +36,101 @@ a:hover {
     border-radius: 15px;
 }
 
+.btn:hover {
+    box-shadow: inset 0 0 0 50px tomato;
+    color: black;
+  } */
+
+
+
+
+
+
+
+/* .container{
+    display: flex;
+    flex-grow: 80%;
+    flex-shrink: 90%;
+    align-content: flex-start;
+}
+.navbar{
+    flex-grow:initial;
+}
+.head{
+    padding-top: 30%;
+} */
+
+
+
+
+/* #image{
+    height:12em;
+    width:12em;
+    position:relative;
+    left: 48%;
+} */
+
+
+
+
+
+.con{
+    height: 4500px;
+}
+
+
+.container {
+    margin-top: 2px;
+    background-color: rgba(0, 0, 0, 0.048);
+    overflow: hidden;
+    border-radius: 34px;
+    position:fixed;
+    width: 99%;
+  }
+  
+  .container a {
+    float: left;
+    display: inline;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .container a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .container a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .container .icon {
+    display: none;
+  }
+
+@media screen and (max-width: 600px) {
+    .container a:not(:first-child) {display: none;}
+    .container a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .container.responsive {position: relative;}
+    .container.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .container.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
